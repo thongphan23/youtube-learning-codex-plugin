@@ -7,7 +7,7 @@ The primary result must be delivered in the chat. Files can be created for trace
 For a serious `learn-video` run, the chat response must include:
 
 - Source boundary.
-- Speaker portrait with at least 5 sourced achievements or an explicit source-limit note.
+- Speaker authority map with at least 5 sourced achievements or an explicit source-limit note.
 - Up to 3 core ideas/worldviews with the full Socratic structure.
 - Synthesis and learner application.
 - Reflection questions.
@@ -39,6 +39,20 @@ thuật ngữ tiếng Việt (English term)
 Then continue using the Vietnamese term.
 
 Do not leave unexplained English terms such as worldview, insight, framework, leverage, agent, alignment, incentive, governance, autonomy, deployment, source, audit, workflow, output, artifact, or QA in learner-facing prose.
+
+## Speaker Authority Map
+
+The speaker section must prove why the learner should listen, not merely list credentials.
+
+It must include:
+
+- a plain-Vietnamese introduction to who the speaker is;
+- at least 5 verified high-signal facts or a clear source-limit note;
+- for each major title, role, institution, or achievement: what it means, how hard or important it is, why it matters for this video's topic, and what it does not prove;
+- a direct answer to "why listen to this person on this topic?";
+- a trust boundary: direct expertise, adjacent expertise, reputation signal, and likely bias.
+
+The output fails if specialized titles or institution names are listed without explanation.
 
 ## Worldview Analysis
 

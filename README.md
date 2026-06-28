@@ -9,6 +9,22 @@ It ports two Antigravity workflows into Codex:
 
 The plugin is router-first, following the same design pattern used by Product Design and Build Web Apps: a small index skill routes work into focused phase skills, references hold reusable contracts, and scripts handle repeatable checks.
 
+## What A Good Decode Must Do
+
+For `learn-video`, the answer should be useful directly in chat. It should not send the learner into several files just to judge depth.
+
+The speaker section is an authority map, not a dry biography. It must explain:
+
+- who the speaker is in plain Vietnamese;
+- at least 5 verified high-signal facts when sources allow;
+- what each title, institution, role, book, paper, project, or achievement means;
+- whether that fact is hard, rare, prestigious, or only contextual;
+- why it matters for the exact video topic;
+- what kind of trust it creates and what it does not prove;
+- where the speaker may have bias or only adjacent authority.
+
+The worldview section should answer Socratic questions such as: what the idea really is, what it is not, what people confuse it with, how it shows up in behavior, when it works, when it fails, and how the learner can apply it.
+
 ## Install Locally
 
 Clone the repo into your local plugin folder:
@@ -81,6 +97,8 @@ Use `learn-video` when the user gives a YouTube link, transcript, podcast interv
 Use `discover-videos` when the user gives an article, draft, thesis, lesson, or content idea and asks for videos to support or challenge it.
 
 Do not fabricate transcripts, speaker biography, view counts, channel identity, or personal viewing claims. Use source evidence, label uncertainty, and ask for user-provided transcript when tools cannot retrieve it.
+
+For speaker research, do not list specialized titles as prestige words. Explain them. For example, a role like `associate professor`, `principal investigator`, `fellow`, or a named lab/university should be translated into practical meaning before using it as evidence of authority.
 
 ## Privacy
 

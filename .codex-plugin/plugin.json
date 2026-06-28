@@ -1,6 +1,6 @@
 {
   "name": "youtube-learning",
-  "version": "0.1.0+codex.20260628074155",
+  "version": "0.1.0+codex.20260628094322",
   "description": "Learn from YouTube videos by decoding speaker context, worldviews, source evidence, and reusable learning atoms; also discover credible videos for an article or thesis.",
   "author": {
     "name": "Thong Phan Local Tools",
@@ -23,7 +23,7 @@
   "interface": {
     "displayName": "YouTube Learning",
     "shortDescription": "Decode YouTube videos into worldviews and find credible supporting videos",
-    "longDescription": "YouTube Learning converts the Antigravity /youtube-learn and /youtube-discover workflows into a Codex plugin. It routes YouTube links through transcript capture, factual speaker research, Socratic belief archaeology, worldview synthesis, Brain2 comparison, and optional atomization. The primary result is a full, detailed, Vietnamese-first analysis in chat; files are only supporting artifacts when useful. It also turns an article or thesis into a curated list of credible YouTube videos with strict channel verification, no fake viewing claims, and copy-ready Vietnamese explanations.",
+    "longDescription": "YouTube Learning converts the Antigravity /youtube-learn and /youtube-discover workflows into a Codex plugin. It routes YouTube links through transcript capture, factual speaker research, human-readable speaker authority mapping, Socratic belief archaeology, worldview synthesis, Brain2 comparison, and optional atomization. The primary result is a full, detailed, Vietnamese-first analysis in chat; files are only supporting artifacts when useful. It also turns an article or thesis into a curated list of credible YouTube videos with strict channel verification, no fake viewing claims, and copy-ready Vietnamese explanations.",
     "developerName": "Thong Phan Local Tools",
     "category": "Education",
     "capabilities": [

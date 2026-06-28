@@ -13,8 +13,8 @@ Supporting files are allowed, but only after the chat contains the substantive a
 Use this order unless the user asks otherwise:
 
 1. **Nguồn đã đọc**: video, transcript, metadata, speaker sources, and limits.
-2. **Người chia sẻ là ai**: role, field, and 5+ verified achievements.
-3. **Vì sao nên nghe người này**: why this speaker matters for this topic, including likely bias.
+2. **Người chia sẻ là ai**: a plain-Vietnamese human introduction, not only title or field.
+3. **Vì sao nên nghe người này**: 5+ verified facts explained as an authority map: what each fact means, whether it is hard or important, why it matters for this video, what it does not prove, and likely bias.
 4. **Các ý tưởng cốt lõi**: up to 3 Socratic worldview sections.
 5. **Tổng hợp**: table or compact map.
 6. **Ứng dụng cho người học**: specific benefits, decisions, and next actions.
@@ -48,4 +48,3 @@ Here is the full analysis...
 Supporting files:
 - ...
 ```
-

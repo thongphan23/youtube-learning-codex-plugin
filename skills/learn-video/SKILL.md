@@ -49,18 +49,26 @@ Use files only as supporting artifacts when:
 
 Even when files are created, the final chat response must include the full substantive analysis: speaker portrait, core ideas, Socratic worldview sections, synthesis, application, source boundary, and QA verdict. Do not answer with only file links or a short summary unless the user explicitly asks for a short summary.
 
-## Phase 2: Speaker Portrait
+## Phase 2: Speaker Authority Map
 
-Write a short but grounded speaker portrait:
+Write a speaker section that helps the learner decide whether to listen, how much to trust, and where to stay careful. This is not a resume dump.
 
-- Full name, nationality when known, current role, core field.
+Cover:
+
+- Human introduction: who this person is in plain Vietnamese, not only title, employer, or discipline.
 - At least 5 concrete achievements, credentials, books, papers, institutional roles, public contributions, or high-signal career facts.
+- For every role, institution, title, or achievement that appears, explain:
+  - what it means in everyday language;
+  - whether it is difficult, rare, prestigious, or merely descriptive;
+  - why it matters for this video's topic;
+  - what it does not prove.
 - What makes the speaker unusual among strong peers.
-- One representative quote only if sourced.
-- Why this person is worth listening to for this topic.
+- Why this person is worth listening to for this topic, written as 2-4 concrete reasons.
+- The trust boundary: where their authority is direct, where it is adjacent, and where the learner should treat it as opinion.
+- Likely bias or lens created by their career, institution, incentives, or community.
 - Context of the appearance: who they spoke with, where, and why that context matters.
 
-Do not guess biographical facts. Mark unknowns. If fewer than 5 achievements can be verified, say exactly how many were found and what sources were checked.
+Do not guess biographical facts. Mark unknowns. If fewer than 5 achievements can be verified, say exactly how many were found and what sources were checked. Do not leave unexplained phrases like "associate professor", "principal investigator", "fellow", "think tank", "research lab", "venture partner", or institution names without explaining why they matter.
 
 ## Phase 3: Belief Archaeology
 
@@ -137,7 +145,7 @@ Provide:
 Assemble the final chat answer in Vietnamese-first language:
 
 1. Source boundary: what was read, what was verified, and what remains uncertain.
-2. Speaker portrait with 5+ concrete achievements.
+2. Speaker authority map with 5+ concrete achievements and a plain-Vietnamese explanation of why each one matters.
 3. The 3 most valuable ideas, each with the full Socratic structure.
 4. Practical use for the learner, not only abstract meaning.
 5. Synthesis table.
@@ -176,7 +184,8 @@ If saving is requested:
 ## QA Checklist
 
 - At most 3 worldviews.
-- Speaker profile has at least 5 sourced achievements or clearly states why fewer were found.
+- Speaker authority map has at least 5 sourced achievements or clearly states why fewer were found.
+- Speaker roles, titles, institutions, and achievements are translated into plain meaning, topic relevance, trust value, and trust limits.
 - Each worldview has Socratic entry question, surface evidence, what it is, what it is not, common confusion, hidden belief, visible signs, types, true cases, false cases, application, and core insight.
 - Hidden belief is plain Vietnamese, not academic jargon.
 - Application states benefit, reduced risk, and smallest next action.

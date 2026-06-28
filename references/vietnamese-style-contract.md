@@ -49,7 +49,24 @@ Good:
 Thế giới quan này giúp anh có đòn bẩy khi thiết kế cơ chế quản trị cho tác nhân tự chủ.
 ```
 
+## Explain Status Words
+
+Do not leave titles, organizations, or status markers as raw prestige words. Translate their practical meaning.
+
+Bad:
+
+```text
+Ông là associate professor, principal investigator và fellow tại một viện nghiên cứu.
+```
+
+Good:
+
+```text
+Ông là phó giáo sư, tức một vai trò học thuật cấp cao hơn giảng viên mới vào nghề, thường cần nhiều năm nghiên cứu, giảng dạy và công bố. Ông cũng dẫn dắt một nhóm nghiên cứu, nghĩa là không chỉ đọc tài liệu mà còn chịu trách nhiệm tạo ra nghiên cứu mới trong lĩnh vực này.
+```
+
+When an institution matters, explain why it matters. Is it a top university, a major lab, a public agency, a small advocacy group, a media company, or only a show/podcast platform? If you cannot verify the institution's significance, say so.
+
 ## Quotes
 
 Keep exact English quotes in English, then translate immediately.
-
