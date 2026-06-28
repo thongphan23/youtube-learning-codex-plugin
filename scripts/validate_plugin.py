@@ -44,6 +44,8 @@ def main() -> int:
     for reference in [
         "references/source-policy.md",
         "references/speaker-research-contract.md",
+        "references/chat-output-contract.md",
+        "references/vietnamese-style-contract.md",
         "references/output-contracts.md",
         "references/socratic-worldview-contract.md",
         "references/brain2-vault-contract.md",

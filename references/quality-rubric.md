@@ -3,6 +3,8 @@
 ## Pass Criteria For Learn Video
 
 - Transcript or source limitation is explicit.
+- The main analysis is fully presented in chat; files are support, not the primary answer.
+- Vietnamese-first wording is used; unavoidable English terms are translated or explained on first use.
 - Speaker facts are sourced or marked unknown.
 - Speaker portrait includes at least 5 sourced achievements, credentials, books, papers, institutional roles, or high-signal career facts, or explicitly explains why fewer were available.
 - At most 3 worldviews.
@@ -28,6 +30,8 @@
 - Claims full video analysis without transcript or equivalent evidence.
 - Fabricates quotes, biography, channel identity, or metadata.
 - Writes a list of generic summaries instead of belief-level analysis.
+- Replaces the substantive answer with file links.
+- Uses unexplained English jargon in learner-facing Vietnamese prose.
 - Speaker portrait has fewer than 5 concrete achievements without an explicit source-limit note.
 - Worldview sections do not make the idea usable, recognizable, and bounded.
 - Saves durable Brain2 worldview atoms without requested approval.

@@ -1,5 +1,20 @@
 # Output Contracts
 
+## Default Delivery
+
+The primary result must be delivered in the chat. Files can be created for traceability, storage, import, or audit, but they must not replace the answer.
+
+For a serious `learn-video` run, the chat response must include:
+
+- Source boundary.
+- Speaker portrait with at least 5 sourced achievements or an explicit source-limit note.
+- Up to 3 core ideas/worldviews with the full Socratic structure.
+- Synthesis and learner application.
+- Reflection questions.
+- QA verdict.
+
+Only provide a short summary when the user explicitly asks for a short summary.
+
 ## English Quote Rule
 
 Every English quote in Vietnamese output must be followed by a close Vietnamese translation:
@@ -10,6 +25,20 @@ Every English quote in Vietnamese output must be followed by a close Vietnamese 
 ```
 
 Keep quotes short and source-grounded. If an exact quote is unavailable, paraphrase and label it as paraphrase.
+
+## Vietnamese-First Rule
+
+When responding in Vietnamese, translate technical terms into Vietnamese wherever possible.
+
+If an English term is necessary, introduce it as:
+
+```text
+thuật ngữ tiếng Việt (English term)
+```
+
+Then continue using the Vietnamese term.
+
+Do not leave unexplained English terms such as worldview, insight, framework, leverage, agent, alignment, incentive, governance, autonomy, deployment, source, audit, workflow, output, artifact, or QA in learner-facing prose.
 
 ## Worldview Analysis
 
@@ -55,3 +84,4 @@ End serious work with:
 - What remains uncertain.
 - Whether Brain2 was checked or unavailable.
 - Pass/fail against the QA checklist.
+- Links to supporting files only after the substantive chat answer.

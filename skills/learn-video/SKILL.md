@@ -13,6 +13,8 @@ Before running a serious decode, read:
 
 - `../../references/source-policy.md`
 - `../../references/speaker-research-contract.md`
+- `../../references/chat-output-contract.md`
+- `../../references/vietnamese-style-contract.md`
 - `../../references/output-contracts.md`
 - `../../references/socratic-worldview-contract.md`
 - `../../references/brain2-vault-contract.md` when Brain2 storage or comparison is requested.
@@ -33,6 +35,19 @@ Useful helper:
 ```bash
 python3 /Users/rio/plugins/youtube-learning/scripts/youtube_learning.py oembed "https://www.youtube.com/watch?v=..."
 ```
+
+## Output Mode
+
+Default to full chat delivery. The user should be able to judge the length, depth, clarity, and usefulness directly from the chat response.
+
+Use files only as supporting artifacts when:
+
+- the transcript is long;
+- the user asks to save durable notes;
+- a reusable Brain2 import draft is needed;
+- the run needs audit evidence.
+
+Even when files are created, the final chat response must include the full substantive analysis: speaker portrait, core ideas, Socratic worldview sections, synthesis, application, source boundary, and QA verdict. Do not answer with only file links or a short summary unless the user explicitly asks for a short summary.
 
 ## Phase 2: Speaker Portrait
 
@@ -117,6 +132,18 @@ Provide:
 - Internal tension: what contradiction exists inside the worldview and how the speaker handles it.
 - "So what for the learner": the 3 highest-leverage changes in how the user should think, decide, or build.
 
+## Phase 4.5: Chat Answer Assembly
+
+Assemble the final chat answer in Vietnamese-first language:
+
+1. Source boundary: what was read, what was verified, and what remains uncertain.
+2. Speaker portrait with 5+ concrete achievements.
+3. The 3 most valuable ideas, each with the full Socratic structure.
+4. Practical use for the learner, not only abstract meaning.
+5. Synthesis table.
+6. Reflection questions.
+7. Optional file/artifact links at the end, never as a replacement for the analysis.
+
 ## Phase 5: Brain2 Check
 
 When Brain2 is relevant and tools are available, search Brain2 for:
@@ -157,3 +184,5 @@ If saving is requested:
 - Speaker facts are sourced or marked unknown.
 - Transcript gaps are disclosed.
 - Brain2 availability and result boundary are stated.
+- Final chat response contains the full analysis, not just links to files.
+- Vietnamese-first language: English terms are avoided, translated, or explained immediately.
