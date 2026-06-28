@@ -1,0 +1,47 @@
+{
+  "name": "youtube-learning",
+  "version": "0.1.0+codex.20260628065704",
+  "description": "Learn from YouTube videos by decoding speaker context, worldviews, source evidence, and reusable learning atoms; also discover credible videos for an article or thesis.",
+  "author": {
+    "name": "Thong Phan Local Tools",
+    "url": "https://thongphan.com/"
+  },
+  "homepage": "https://github.com/thongphan23/youtube-learning-codex-plugin",
+  "repository": "https://github.com/thongphan23/youtube-learning-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "learning",
+    "worldview",
+    "transcript",
+    "research",
+    "brain2",
+    "video-discovery",
+    "content-research"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube Learning",
+    "shortDescription": "Decode YouTube videos into worldviews and find credible supporting videos",
+    "longDescription": "YouTube Learning converts the Antigravity /youtube-learn and /youtube-discover workflows into a Codex plugin. It routes YouTube links through transcript capture, speaker research, belief archaeology, worldview synthesis, Brain2 comparison, and optional atomization. It also turns an article or thesis into a curated list of credible YouTube videos with strict channel verification, no fake viewing claims, and copy-ready Vietnamese explanations.",
+    "developerName": "Thong Phan Local Tools",
+    "category": "Education",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/thongphan23/youtube-learning-codex-plugin",
+    "privacyPolicyURL": "https://github.com/thongphan23/youtube-learning-codex-plugin#privacy",
+    "termsOfServiceURL": "https://github.com/thongphan23/youtube-learning-codex-plugin#terms",
+    "defaultPrompt": [
+      "Decode this YouTube video",
+      "Find videos for this article",
+      "Turn this talk into Brain2 atoms"
+    ],
+    "brandColor": "#FF0000",
+    "composerIcon": "./assets/composerIcon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}
