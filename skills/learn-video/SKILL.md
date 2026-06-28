@@ -12,7 +12,9 @@ Use this skill when the user gives a YouTube URL, transcript, podcast interview,
 Before running a serious decode, read:
 
 - `../../references/source-policy.md`
+- `../../references/speaker-research-contract.md`
 - `../../references/output-contracts.md`
+- `../../references/socratic-worldview-contract.md`
 - `../../references/brain2-vault-contract.md` when Brain2 storage or comparison is requested.
 - `../../references/quality-rubric.md` before final handoff.
 
@@ -37,19 +39,23 @@ python3 /Users/rio/plugins/youtube-learning/scripts/youtube_learning.py oembed "
 Write a short but grounded speaker portrait:
 
 - Full name, nationality when known, current role, core field.
-- Top 3-5 concrete achievements.
+- At least 5 concrete achievements, credentials, books, papers, institutional roles, public contributions, or high-signal career facts.
 - What makes the speaker unusual among strong peers.
 - One representative quote only if sourced.
 - Why this person is worth listening to for this topic.
 - Context of the appearance: who they spoke with, where, and why that context matters.
 
-Do not guess biographical facts. Mark unknowns.
+Do not guess biographical facts. Mark unknowns. If fewer than 5 achievements can be verified, say exactly how many were found and what sources were checked.
 
 ## Phase 3: Belief Archaeology
 
-Choose at most 3 worldviews. For each worldview, use this exact structure:
+Choose at most 3 worldviews. For each worldview, use this exact structure. The goal is not to name an idea; the goal is to make the user feel the value, boundary, and application of the idea.
 
 ### Worldview #[N]: [short name]
+
+**Socratic entry question**
+
+Ask the one question that makes the worldview necessary.
 
 **Surface evidence**
 
@@ -58,6 +64,18 @@ Choose at most 3 worldviews. For each worldview, use this exact structure:
 
 Explain what the speaker said, decided, or noticed in context.
 
+**What it really is**
+
+Define it in plain Vietnamese in 1-2 sentences.
+
+**What it is not**
+
+State the most tempting wrong interpretation.
+
+**Often confused with**
+
+Name the adjacent idea people mix it up with, then separate them.
+
 **Hidden belief**
 
 Write one Vietnamese sentence that is simple enough to remember after one reading. Avoid abstract philosophy language.
@@ -65,6 +83,14 @@ Write one Vietnamese sentence that is simple enough to remember after one readin
 **Why this belief must be true in their head**
 
 Explain what assumption underneath the quote makes the claim coherent. State what mainstream belief it rejects.
+
+**Visible signs**
+
+List 3-5 concrete behaviors, decisions, phrases, or tradeoffs that reveal this worldview in real life.
+
+**Types**
+
+If useful, split the worldview into 2-4 practical types. If no useful types exist, say "No useful subtype; treat it as one lens."
 
 **True when**
 
@@ -76,7 +102,11 @@ Give 1-2 cases where applying this worldview would create bad results.
 
 **Application for Thong Phan or the user**
 
-Give one specific action in one domain: influence, persuasion, content, learning, product, or life.
+Give one specific action in one domain: influence, persuasion, content, learning, product, or life. Include the benefit, the risk it reduces, and the smallest next action.
+
+**Core insight**
+
+Compress the worldview into one reusable sentence the user could use in a talk, lesson, note, or product rule.
 
 ## Phase 4: Synthesis
 
@@ -85,6 +115,7 @@ Provide:
 - A table of the 3 core beliefs and their clearest behavior.
 - Contrast with mainstream thinking.
 - Internal tension: what contradiction exists inside the worldview and how the speaker handles it.
+- "So what for the learner": the 3 highest-leverage changes in how the user should think, decide, or build.
 
 ## Phase 5: Brain2 Check
 
@@ -118,10 +149,11 @@ If saving is requested:
 ## QA Checklist
 
 - At most 3 worldviews.
-- Each worldview has surface evidence, hidden belief, true cases, false cases, and application.
+- Speaker profile has at least 5 sourced achievements or clearly states why fewer were found.
+- Each worldview has Socratic entry question, surface evidence, what it is, what it is not, common confusion, hidden belief, visible signs, types, true cases, false cases, application, and core insight.
 - Hidden belief is plain Vietnamese, not academic jargon.
+- Application states benefit, reduced risk, and smallest next action.
 - English quotes have Vietnamese close translation.
 - Speaker facts are sourced or marked unknown.
 - Transcript gaps are disclosed.
 - Brain2 availability and result boundary are stated.
-
